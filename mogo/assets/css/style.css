@@ -54,7 +54,7 @@ hr {
     min-height: 820px;
     position: relative;
 
-    background: url("../images/intro.jpg") center no-repeat;
+    background: url("../images/intro.jpg") no-repeat center;
     -webkit-background-size: cover;
     background-size: cover;
 }
@@ -811,6 +811,7 @@ hr {
 /* Works */
 .works {
     display: flex;
+    background-color:#2b2e4a;
 }
 
 .works__col {
